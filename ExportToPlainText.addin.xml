@@ -1,0 +1,22 @@
+<Addin id="ExportToPlainTextAddin"
+	namespace="Tomboy"
+	name="Export To Plain Text"
+	author="Robert Nordan, www.robpvn.net"
+	description="Exports all files or a notebook to plain text files."
+	category="Tools"
+	defaultEnabled="true"
+	version="0.10">
+
+	<Runtime>
+		<Import assembly="ExportToPlainTextAddin.dll" />
+	</Runtime>
+
+	<Dependencies>
+		<Addin id="Tomboy" version="0.10" />
+	</Dependencies>
+
+	<Extension path="/Tomboy/ApplicationAddins">
+		<ApplicationAddin type="Tomboy.ExportToPlainText.ExportToPlainTextApplicationAddin" />
+	</Extension>
+	
+</Addin>
