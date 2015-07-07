@@ -5,7 +5,7 @@
 	description="Exports all files or a notebook to plain text files."
 	category="Tools"
 	defaultEnabled="true"
-	version="0.10">
+	version="0.2">
 
 	<Runtime>
 		<Import assembly="ExportToPlainTextAddin.dll" />
